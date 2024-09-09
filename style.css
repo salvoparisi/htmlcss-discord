@@ -7,26 +7,25 @@
 }
 
 .debug header{
-    background-color: aqua;
+    background-color: #3161e0;
     padding: 20px 0;
-
+    border-bottom: #3161e0 100px;
 }
 
 header>main{
-    background-color: tan;
-    border: 1px dashed;
+    background-color: #3161e0;
     
 }
 
 header>nav{
-    background-color: tan;
-    border: 1px dashed;
+    background-color: #3161e0;
+    
     padding-right: 10%;
 }
 
 header>aside{
-    background-color: tan;
-    border: 1px dashed;
+    background-color: #3161e0;
+    
     padding-left: 10%;
 }
 
@@ -39,17 +38,19 @@ header>aside{
 
 
 .box1{
-    background-color: rgb(0, 0, 161);
+    background-image: url(./img/jumbo.png);
+    background-color: #ffffff;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
+    padding: 0 10%;
 }
 
 .box1>main{
     display: flex;
-    background-color: rgb(252, 135, 155);
-    height: 600px;
-    width: 1200px;
-    border: 1px dashed;
+    height: 680px;
 }
 
 /*end box1*/
@@ -218,17 +219,19 @@ h1{
 
 #startsection>h1{
     padding: 20px 0 50px;
+    
 }
 
 #startsection>span{
-    padding: 0 200px 20px 200px;
+    padding: 0 300px 20px 300px;
     line-height: 30px;
 }
 
 #sectiondown{
     display: flex;
-    padding: 10px 30%;
+    padding: 10px 33%;
     justify-content: space-around;
+    flex-wrap: nowrap;
 }
 
 #download{
@@ -250,42 +253,68 @@ h1{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+    color: #1e2124;
 }
 .box2>aside>div{
     line-height: 30px;
     padding-top: 20px;
 }
 
+.box2>main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*end box2*/
 .box3>aside{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+    color: #1e2124;
 }
 .box3>aside>div{
     line-height: 30px;
     padding-top: 20px;
 }
 
+.box3>main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*end box3*/
 .box4>aside{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+    color: #1e2124;
 }
 .box4>aside>div{
     line-height: 30px;
     padding-top: 20px;
 }
-
+.box4>main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*end box4*/
 .box5>main{
     text-align: center;
 }
 .box5>main>div{
     padding-top: 20px;
+    color: #1e2124;
 }
-
+.box5>main>h1{
+    color: #1e2124;
+}
+.box5>main>img{
+    padding: 0 0 40px 0;
+    width: 100%;
+}
+/*end box5*/
 
 h2{
     font-size: 40px;
@@ -300,10 +329,12 @@ h3{
 .boxcolumn>div{
     padding-top: 15px;
 }
-
+/*end box6*/
 #finalsection>button{
     background-color: #7289da;
     color: white;
     padding: 10px;
     border-radius: 30px;
 }
+
+/*end footer*/
