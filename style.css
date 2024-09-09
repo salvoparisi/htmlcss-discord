@@ -304,15 +304,29 @@ h1{
     text-align: center;
 }
 .box5>main>div{
-    padding-top: 20px;
+    padding:20px 35px 0 35px;
     color: #1e2124;
 }
 .box5>main>h1{
     color: #1e2124;
 }
 .box5>main>img{
-    padding: 0 0 40px 0;
     width: 100%;
+}
+.box5>main>h2{
+    color: #1e2124;
+    background-image: url(./img/stars.svg);
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px 0 50px 0;
+}
+#downloadbox5{
+    background-color: #8ea1e1;
+    display: inline;
+    padding: 15px;
+    border-radius: 30px;
+    color: white;
 }
 /*end box5*/
 
