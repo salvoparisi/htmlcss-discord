@@ -127,9 +127,9 @@ header>aside{
 /*end box5*/
 
 .box6{
-    background-color: rgb(34, 34, 34);
+    background-color: #1e2124;
     display:flex;
-    padding: 5px 10% 15px 10%;
+    padding: 50px 10% 15px 10%;
     justify-content: center;
 }
 .box6>nav{
@@ -144,13 +144,14 @@ header>aside{
     background-color: aquamarine;
     width: 300px;
     border: 1px dashed; 
+    padding-top: 15px;
 }
 
 /*end box6*/
 
 footer{
-    background-color: rgb(34, 34, 34);
-    border-top: solid white 1px;
+    background-color: #1e2124;
+    border-top: solid #424549 2px;
     display: flex;
     justify-content: center;
     padding: 15px 10% 0;
@@ -278,3 +279,31 @@ h1{
     padding-top: 20px;
 }
 
+.box5>main{
+    text-align: center;
+}
+.box5>main>div{
+    padding-top: 20px;
+}
+
+
+h2{
+    font-size: 40px;
+    color: #7289da;
+}
+
+h3{
+    font-size: 20px;
+    color: #7289da;
+}
+
+.boxcolumn>div{
+    padding-top: 15px;
+}
+
+#finalsection>button{
+    background-color: #7289da;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+}
