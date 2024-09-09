@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .debug header{
@@ -215,16 +216,17 @@ h1{
 }
 
 #startsection>h1{
-    padding: 0 0 50px;
+    padding: 20px 0 50px;
 }
 
 #startsection>span{
     padding: 0 200px 20px 200px;
+    line-height: 30px;
 }
 
 #sectiondown{
     display: flex;
-    padding: 10px 250px;
+    padding: 10px 30%;
     justify-content: space-around;
 }
 
@@ -240,3 +242,39 @@ h1{
     padding: 10px;
     border-radius: 30px;
 }
+
+/*end box1*/
+
+.box2>aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.box2>aside>div{
+    line-height: 30px;
+    padding-top: 20px;
+}
+
+.box3>aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.box3>aside>div{
+    line-height: 30px;
+    padding-top: 20px;
+}
+
+.box4>aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.box4>aside>div{
+    line-height: 30px;
+    padding-top: 20px;
+}
+
