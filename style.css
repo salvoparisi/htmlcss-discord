@@ -7,7 +7,7 @@
 
 .debug header{
     background-color: aqua;
-    padding: 5px 0;
+    padding: 20px 0;
 
 }
 
@@ -155,7 +155,7 @@ footer{
     padding: 15px 10% 0;
 }
 
-section{
+#finalsection{
     background-color: aqua;
     display: flex;
     justify-content: space-between;
@@ -163,7 +163,7 @@ section{
     border: dashed 1px;
     padding: 10px 0;
 }
-section>div{
+footer>section>div{
     background-color: pink;
     border: dashed 1px;
 }
@@ -187,4 +187,27 @@ button{
 
 main>div{
     color: white;
+    align-content: center;
+}
+
+#login>div{
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.container>nav{
+    align-content: center;
+}
+
+/*end header*/
+
+div>main>section{
+    text-align: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+h1{
+    font-size: 40px;
 }
